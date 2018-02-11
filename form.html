@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<font  face="arial" size="56"><p align="center">General Public Grievance Addressal Form </p></font>
+</head>
+
+<body>
+<form action="/my-handling-form-page" method="post">
+    <div>
+        <label for="name">Name: <abbr title="required">*</abbr></label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="mail">E-mail: <abbr title="required">*</abbr></label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="mobile_no">Mobile Number: <abbr title="required">*</abbr></label>
+        <input type="number" id="mobile_no" name="user_mobile">
+    </div>
+    <div>
+        <label for="address">Address <abbr title="required">*</abbr></label>
+        <input type="text" id="address" name="user_address">
+    </div>		
+    
+    
+    <fieldset>
+            <legend>Occupation</legend>
+            <p> <input type="radio" name="size" id="size_1" value="Student"> <label for="size_1">Student</label> </p>
+            <p> <input type="radio" name="size" id="size_2" value="Business"> <label for="size_2">Business</label> </p>
+            <p> <input type="radio" name="size" id="size_3" value="Doctor"> <label for="size_3">Doctor</label> </p>
+	    <p> <input type="radio" name="size" id="size_3" value="Engineer"> <label for="size_4">Engineer</label> </p>
+            <p> <input type="radio" name="size" id="size_3" value="Architect"> <label for="size_5">Architect</label> </p>
+            <p> <input type="radio" name="size" id="size_3" value="Service"> <label for="size_6">Service</label> </p>
+	    <p> <input type="radio" name="size" id="size_3" value="Others"> <label for="size_7">Others</label> </p>
+        </fieldset> 	
+	   
+     <div>
+        <label for="msg">Your Grievance <abbr title="required">*</abbr></label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+
+
+
+    <div class="button">
+    <button type="submit">Submit</button>
+   </div>
+</form>
+
+<body>
+</html>
